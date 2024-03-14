@@ -86,5 +86,5 @@ class Student
     public function __toString()
     {
         return "Id: {$this->id}\nФамилия: {$this->last_name}\nИмя: {$this->first_name}\nФакультет: {$this->faculty}\nКурс: {$this->course}\nГруппа: {$this->group}\n";
-    }
+    } 
 }
