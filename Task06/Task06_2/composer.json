@@ -1,0 +1,19 @@
+{
+    "name": "nickolay/task06",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/Unit/"
+        },
+        "files": ["src/AdditionalSofa.php" , "src/Breakfast.php" , "src/DedicatedInternet.php" , "src/DiliveryFood.php" , "src/Dinner.php" , "src/EconomyRoom.php" , "src/LuxaryRoom.php" , "src/StandartRoom.php"]
+    },
+    "authors": [
+        {
+            "name": "NickolayKuzmin",
+            "email": "fertam2016@yandex.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^11.0"
+    }
+}
