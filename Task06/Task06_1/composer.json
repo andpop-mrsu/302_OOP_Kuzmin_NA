@@ -1,0 +1,19 @@
+{
+    "name": "nickolay/task06",
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "tests/Unit/",
+            "App\\": "src/"
+        },
+        "files": ["src/ManufacturerFilter.php", "src/MaxPriceFilter.php", "src/Product.php", "src/ProductCollection.php"]
+    },
+    "authors": [
+        {
+            "name": "NickolayKuzmin",
+            "email": "fertam2016@yandex.ru"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^11.0"
+    }
+}
